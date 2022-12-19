@@ -1,0 +1,52 @@
+@import "./src/styles/variables";
+
+.Toolbar{
+  height: $toolbar-height;
+  background-color: $background-secondary-color;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  z-index: 5;
+}
+
+.btn{
+  height: 25px;
+  width: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: $background-secondary-color;
+  margin: 0 10px;
+}
+.brush{
+  background-image: url("../../shared/images/brush.png");
+}
+.rect{
+  background-image: url("../../shared/images/rect.png");
+}
+.circle{
+    background-image: url("../../shared/images/circle.png");
+}
+.eraser{
+    background-image: url("../../shared/images/eraser.png");
+}
+.line{
+    background-image: url("../../shared/images/line.png");
+}
+
+.undo{
+  margin-left: auto;
+    background-image: url("../../shared/images/undo.png");
+}
+
+.redo{
+    background-image: url("../../shared/images/redo.png");
+}
+
+.save{
+    background-image: url("../../shared/images/save.png");
+}

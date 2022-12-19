@@ -1,0 +1,14 @@
+@import "./src/styles/variables";
+
+.Canvas{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas{
+  border: 1px solid black;
+  color: #eeeeee;
+  background-color: white;
+}
